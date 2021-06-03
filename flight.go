@@ -31,6 +31,7 @@ func main() {
 	flights[2] = "DECCAN AIR"
 	fmt.Println("THE AVAILABLE FLIGHTS ON YOUR DATE ARE", flights)
 	fmt.Println("CHOOSE YOUR FLIGHT")
+	fmt.Println("choose from 1 2 3")
 	var choose int
 	fmt.Scanln(&choose)
 	if choose == 1 {
