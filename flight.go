@@ -67,6 +67,7 @@ func main() {
 		fmt.Println("pay rs 12000")
 	}
 	fmt.Println(" PLEASE CHOOSE YOUR PAYMENT METHOD")
+	fmt.Println("CHOOSE ANY LIKE 1 2 3")
 	var payment [3]string
 	payment[0] = "DEBIT CARD"
 	payment[1] = "CREDIT CARD"
